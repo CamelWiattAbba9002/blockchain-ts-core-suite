@@ -1,0 +1,23 @@
+import { generateKeyPairSync } from 'crypto';
+
+export class WalletKeyGenerator {
+  static generateECDSAKeyPair() {
+    const { privateKey, publicKey } = generateKeyPairSync('ec', {
+      namedCurve: 'secp256k1',
+      publicKeyEncoding: { type: 'spki', format: 'pem' },
+      privateKeyEncoding: { type: 'pkcs8', format: 'pem' }
+    });
+    return { privateKey, publicKey };
+  }
+
+  static generateRSAKeyPair() {
+    const { privateKey, publicKey } = generateKeyPairSync('rsa', {
+      modulusLength: 2048,
+      publicKeyEncoding: { type: 'spki', format: 'pem' },
+      privateKeyEncoding: { type: 'pkcs8', format: 'pem' }
+    });
+    return { privateKey, publicKey };
+  }
+}
+
+export default WalletKeyGenerator;

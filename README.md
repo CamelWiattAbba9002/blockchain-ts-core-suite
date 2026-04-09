@@ -1,2 +1,63 @@
 # blockchain-ts-core-suite
-Enterprise-grade blockchain development toolkit built with TypeScript | 全栈式企业级区块链核心工具集，包含钱包、加密、共识、合约、跨链、NFT、挖矿、节点通信等全场景模块
+### Enterprise-grade blockchain development toolkit built with TypeScript | 全栈式企业级区块链核心工具集，包含钱包、加密、共识、合约、跨链、NFT、挖矿、节点通信等全场景模块
+
+---
+
+## 📁 项目文件清单（40个核心模块）
+1. CRYPTO_HASH_UTILS.ts
+2. BLOCKCHAIN_BLOCK_MODEL.ts
+3. WALLET_KEY_GENERATOR.ts
+4. TRANSACTION_SIGNER.ts
+5. POW_CONSENSUS_ENGINE.ts
+6. BLOCKCHAIN_CHAIN_CORE.ts
+7. MERKLE_TREE_BUILDER.ts
+8. NFT_METADATA_HANDLER.ts
+9. SMART_CONTRACT_BASE.ts
+10. TOKEN_STANDARD_ERC20.ts
+11. PEER_TO_PEER_NETWORK.ts
+12. BLOCK_SYNC_SERVICE.ts
+13. TRANSACTION_POOL_MANAGER.ts
+14. ADDRESS_VALIDATOR_TOOL.ts
+15. GAS_CALCULATOR_ENGINE.ts
+16. CROSS_CHAIN_BRIDGE_CORE.ts
+17. DEFI_STAKING_POOL.ts
+18. BLOCK_VALIDATOR_SERVICE.ts
+19. WALLET_BALANCE_TRACKER.ts
+20. NFT_MINTING_ENGINE.ts
+21. DPOS_CONSENSUS_SYSTEM.ts
+22. CHAIN_DATA_ENCRYPTOR.ts
+23. TRANSACTION_FEE_DISTRIBUTOR.ts
+24. BLOCKCHAIN_API_ROUTER.ts
+25. ORACLE_DATA_FEED.ts
+26. CHAIN_FORK_DETECTOR.ts
+27. MULTISIG_WALLET_CORE.ts
+28. TOKEN_BURN_MANAGER.ts
+29. NODE_MONITOR_SERVICE.ts
+30. CHAIN_STATISTICS_ANALYZER.ts
+31. LAYER2_SCALING_ENGINE.ts
+32. ZK_PROOF_GENERATOR.ts
+33. DEFI_LIQUIDITY_POOL.ts
+34. BLOCK_REWARD_CALCULATOR.ts
+35. CONTRACT_EVENT_LOGGER.ts
+36. IPFS_CONTENT_STORAGE.ts
+37. CHAIN_GOVERNANCE_VOTING.ts
+38. BLOCKCHAIN_DATA_BACKUP.ts
+39. WEB3_WALLET_CONNECTOR.ts
+40. FULL_BLOCKCHAIN_NODE.ts
+
+---
+
+## 🚀 功能介绍
+本项目基于 TypeScript 构建，覆盖区块链全技术栈，适用于公链、联盟链、Web3 DApp、DeFi、NFT、跨链、Layer2、零知识证明等场景，所有模块原生可运行、无外部依赖、高度解耦。
+
+核心能力：
+- 密码学哈希、加密解密、签名验签
+- 区块链区块/链式结构、POW/DPOS 共识
+- ERC20/ NFT 标准合约、铸造/转账/燃烧
+- 节点网络、P2P通信、区块同步、分叉检测
+- DeFi 质押池/流动池、多签钱包、链上治理
+- 预言机、跨链桥、Layer2 扩容、零知识证明
+- 钱包生成、地址校验、余额追踪、Gas 计算
+- 节点监控、数据备份、API 路由、事件日志
+
+---
